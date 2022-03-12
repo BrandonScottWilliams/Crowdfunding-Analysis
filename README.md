@@ -1,8 +1,12 @@
 # Kickstarting with Excel
 
-## Overview of Project - The project is based on a kickstarter campaigns that use crowdfunding data used to examine and analyze trends.
+## Overview of Project 
 
-## Purpose - The purpose of the analysis is to visualize the relationship between outcomes of the kickstarter campaigns and their launch dates and outcomes of the kickstarter campaigns and their funding goals.
+The project is based on a kickstarter campaigns that use crowdfunding data used to examine and analyze trends.
+
+## Purpose
+
+The purpose of the analysis is to visualize the relationship between outcomes of the kickstarter campaigns and their launch dates and outcomes of the kickstarter campaigns and their funding goals.
 
 ## Analysis and Challenges
 
@@ -12,18 +16,19 @@ Analysis of Outcomes Based on Launch Date - This analysis aims to show any relat
 ## Analysis of Outcomes Based on Goals 
 This analysis aims to show any relationships between the play campaign based on outcomes (only successful and failed since non were canceled) and the goal of the campaign. To achieve this goal, we first have to create a table that counts the number of each outcomes in different goal ranges using excels COUNTIFS(). Next we use the SUM function to calculate the total for each range regardless of outcome so that we can calculate the percentages of our segregated values when compared to the total . Finally, a line chart was used to visualize this comparison.
 
-### Challenges and Difficulties Encountered
+## Challenges and Difficulties Encountered
 
 ## Results
 
 ## What are two conclusions you can draw about the Theatre Outcomes based on Launch Date?
-- 1. There are more successful campaigns in the middle of the year with the data showing that the peak occurs in May, and less successful campaigns at the start and end of the year.
+-  There are more successful campaigns in the middle of the year with the data showing that the peak occurs in May, and less successful campaigns at the start and end of the year.
 
-- 2. Throughout the year the number of failed outcomes remains relatively consistent and failure does not seem to be dependent on the launch date for theatre campaigns.
+- Throughout the year the number of failed outcomes remains relatively consistent and failure does not seem to be dependent on the launch date for theatre campaigns.
  
 
 ##  What can you conclude about the Outcomes based on Goals?
-1. Based on the line graph, our data shows that projects that have a higher goal tend to have a higher chance of failing as well as projects that have lower goals have a higher chance of success. However, the graph also shows that it is very possible that projects with higher goals can still succeed and projects with lower goals fail. This means that other factors are important in determining whether a project fails or not, but likely there exists a relationship between the goal amount and campaign outcome.
+
+Based on the line graph, our data shows that projects that have a higher goal tend to have a higher chance of failing as well as projects that have lower goals have a higher chance of success. However, the graph also shows that it is very possible that projects with higher goals can still succeed and projects with lower goals fail. This means that other factors are important in determining whether a project fails or not, but likely there exists a relationship between the goal amount and campaign outcome.
 
 
 ## What are some limitations of this dataset?
