@@ -6,15 +6,15 @@ The project is based on a kickstarter campaigns that use crowdfunding data to ex
 
 ## Purpose
 
-The purpose of the analysis is to visualize the relationship between
-1. Outcomes of the kickstarter campaigns and their launch dates.
-2. Outcomes of the kickstarter campaigns and their funding goals.
+The purpose of the analysis is to visualize the relationship between:
+	1. Outcomes of the kickstarter campaigns and their launch dates.
+	2. Outcomes of the kickstarter campaigns and their funding goals.
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
 
-This analysis aims to show any relationships between the success failure or cancelation of a project based on the month that the project was launched in. To achieve this goal, we first had to convert the dates from unix time stamps and extract the years date created so that it could be used in a pivot table to compare it with our outcomes. Next that pivot table had to be filtered to only show theater campaigns, months of the year and non live campaigns. Next a line graph was used to easily see how the campaigns stacked up against each other.
+This analysis aims to show any relationships between the success, failure or cancelation of a project based on the month that the project was launched in. To achieve this goal, we first had to convert the dates from unix time stamps and extract the years date created so that it could be used in a pivot table to compare it with our outcomes. Next that pivot table had to be filtered to only show theater campaigns, months of the year and non live campaigns. Next a line graph was used to easily see how the campaigns stacked up against each other.
 
 
 ### Analysis of Outcomes Based on Goals 
