@@ -7,8 +7,8 @@ The project is based on a kickstarter campaigns that use crowdfunding data to ex
 ## Purpose
 
 The purpose of the analysis is to visualize the relationship between:
-	1. Outcomes of the kickstarter campaigns and their launch dates.
-	2. Outcomes of the kickstarter campaigns and their funding goals.
+1. Outcomes of the kickstarter campaigns and their launch dates.
+2. Outcomes of the kickstarter campaigns and their funding goals.
 
 ## Analysis and Challenges
 
