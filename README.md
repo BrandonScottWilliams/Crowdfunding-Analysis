@@ -23,7 +23,10 @@ This analysis aims to show any relationships between the success, failure or can
 
 This analysis aims to show any relationships between the play campaign based on outcomes (only successful and failed since non were canceled) and the goal of the campaign. To achieve this goal, we first have to create a table that counts the number of each outcomes in different goal ranges using excels COUNTIFS(). Next we use the SUM function to calculate the total for each range regardless of outcome so that we can calculate the percentages of our segregated values when compared to the total . Finally, a line chart was used to visualize this comparison.
 
-## Challenges and Difficulties Encountered
+### Challenges and Difficulties Encountered
+
+The main challenge with this project was documenting the results and analysis in a easily readable format. This challenge was fixed with trial and error and also consulting online resources that gave tips on using markdown in Github.
+
 
 ### Results
 
