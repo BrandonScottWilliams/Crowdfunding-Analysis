@@ -13,11 +13,13 @@ The purpose of the analysis is to visualize the relationship between:
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/99148657/158028577-4a031963-b3ce-40aa-9906-261bf853ffcf.png)
 
 This analysis aims to show any relationships between the success, failure or cancelation of a project based on the month that the project was launched in. To achieve this goal, we first had to convert the dates from unix time stamps and extract the years date created so that it could be used in a pivot table to compare it with our outcomes. Next that pivot table had to be filtered to only show theater campaigns, months of the year and non live campaigns. Next a line graph was used to easily see how the campaigns stacked up against each other.
 
 
 ### Analysis of Outcomes Based on Goals 
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/99148657/158028564-0d3f5c37-e769-4575-955c-1acdc5293cdf.png)
 
 This analysis aims to show any relationships between the play campaign based on outcomes (only successful and failed since non were canceled) and the goal of the campaign. To achieve this goal, we first have to create a table that counts the number of each outcomes in different goal ranges using excels COUNTIFS(). Next we use the SUM function to calculate the total for each range regardless of outcome so that we can calculate the percentages of our segregated values when compared to the total . Finally, a line chart was used to visualize this comparison.
 
